@@ -1,0 +1,108 @@
+/* SETS WEBSITE PROPORTIONS*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* SETS WEBSITE BACKGROUND COLOR */
+body {
+  margin:0px; /* ELIMINATES GAP BETWEEN NAV BAR AND TOP OF WEBSITE */
+}
+
+/* NAVIGATION BAR CONTAINER */
+nav ul {
+  margin:0px; /* ELIMINATES GAP BETWEEN NAV BAR AND TOP OF WEBSITE */
+  text-align: left; 
+  list-style-type: none; /* REMOVES LINE UNDERNEATH NAV BAR ELEMENTS */
+  background-color: #582c83;
+  overflow:hidden; /* ENSURES NAV BAR ELEMENTS ARE PROPORTIONAL TO NAV BAR */
+  padding:0.5em;
+}
+
+/* NAVIGATION BAR LAYOUT */
+nav li {
+  display: inline;
+  margin-right: 2em;
+}
+
+/* NAVIGATION BAR STYLE, PADDING AND COLOR */
+nav li a {
+  font-family: "Source Sans 3", sans-serif;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 0.25em;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+  color: #ffffff; /*text color */
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* NAVIGATION BAR HOVER ELEMENT */
+nav li a:hover {
+  color:#c7c7c7;
+}
+
+.logo
+{
+  font-weight: normal ;
+  font-size: 1.6em;
+}
+
+.title{
+  padding-top:0.8em;
+}
+
+h1{
+
+  font-size:2.5em;
+  font-family: "Source Sans 3", sans-serif;
+  text-align:center;
+  color: #582c83;
+}
+
+#gmp-map {
+    height: 400px;
+    width: 100%;
+}
+
+p{
+  padding:0em;
+  padding-bottom:0.5em;
+  font-family: "Source Sans 3", sans-serif;
+  text-align:center;
+  color: #000000;
+}
+li{
+  padding:0em;
+  font-family: "Source Sans 3", sans-serif;
+  text-align:center;
+  color: #000000;
+  
+}
+
+img {
+  display:flex;
+  max-height:200px;
+  max-width:300px;
+}
+
+.flexBox {
+  display: flex;            /* Enables flexbox layout */
+  flex-wrap: wrap;          /* Allows items to wrap if screen width is too small */
+  justify-content: center;   /* Centers items horizontally */
+  padding-bottom: 60px;
+  margin: 2.5%;
+}
+
+.item {
+  display: flex;            /* Centers content within each item */
+  flex-direction: column;   /* Stacks content vertically within each item */
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 30%;            /* Each item takes up roughly 30% of the row */
+  margin: 1.5em;             /* Adds more space between items */
+  min-width: 250px;         /* Ensures a minimum width for responsive layout */
+  max-width: 500px;         /* Ensures columns don’t get too wide */
+}
+
